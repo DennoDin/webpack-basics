@@ -1,10 +1,10 @@
-// var lodash = require('lodash'); // PART I - STEP ONE - Uncomment this code.
-// var sortBy = require('lodash/sortBy'); // PART I - STEP TWO - Use this code instead.
+// var lodash = require("lodash"); // PART I - STEP ONE - Uncomment this code.
+var sortBy = require("lodash/sortBy"); // PART I - STEP TWO - Use this code instead.
 
-// require('./client/Nav/Nav'); // PART II - UNCOMMENT THIS LINE
-// require('./client/App/App'); // PART II - UNCOMMENT THIS LINE
-// require('./client/App/App.css'); // PART II - UNCOMMENT THIS LINE
-// require('./client/Nav/Nav.css'); // PART II - UNCOMMENT THIS LINE
+require("./client/Nav/Nav"); // PART II - UNCOMMENT THIS LINE
+require("./client/App/App"); // PART II - UNCOMMENT THIS LINE
+require("./client/App/App.css"); // PART II - UNCOMMENT THIS LINE
+require("./client/Nav/Nav.css"); // PART II - UNCOMMENT THIS LINE
 
 var message = [
   { phrase: "Pretty awesome!", order: 6 },
@@ -17,5 +17,5 @@ var message = [
   { phrase: "for the sortBy function.", order: 3 },
 ];
 
-// console.log(lodash.sortBy(message, 'order')); // PART I - STEP ONE - Uncomment this code.
-// console.log(sortBy(message, 'order')); // PART I - STEP TWO - Use this code instead.
+// console.log(lodash.sortBy(message, "order")); // PART I - STEP ONE - Uncomment this code.
+console.log(sortBy(message, "order")); // PART I - STEP TWO - Use this code instead.
